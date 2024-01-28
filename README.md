@@ -12,7 +12,7 @@ The example code of basic usage accessing the KilatStorage bucket with Node.JS u
 $ npm i
 ```
 
-2. Put your KilatStorage credentials on `.env` file (see `.env.example`)
+2. Put your KilatStorage credentials on `.env` file (see file `(.env.example)`)
 ```
 KILAT_STORAGE_ACCESS_KEY_ID=xxxxxxx
 KILAT_STORAGE_SECRET_ACCESS_KEY=xxxxxxx
@@ -31,6 +31,9 @@ $ node upload.js # for upload the objects, such as (images, videos, etc)
 ```
 
 The `upload.js` will upload the image file on `./img` directory.
+
+# License
+For the license [License](./LICENSE)
 
 # Contributor
 Anggit M Ginanjar - <anggit.ginanjar.dev@gmail.com>
