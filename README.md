@@ -33,7 +33,7 @@ $ node createBucket.js # for create your bucket
 $ node upload.js # for upload the objects, such as (images, videos, etc)
 ```
 
-The `upload.js` will upload the image file on `./img` directory.
+The `upload.js` will upload the image file on `./img` directory to the bucket.
 
 # License
 For the license [License](./LICENSE)
