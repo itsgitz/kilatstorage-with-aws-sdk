@@ -1,0 +1,23 @@
+{
+  "name": "kilatstorage-with-amazon-sdk",
+  "version": "1.0.0",
+  "description": "The example code of basic code accessing the KilatStorage bucket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsgitz/kilatstorage-with-amazon-sdk.git"
+  },
+  "keywords": [
+    "KilatStotasge",
+    "S3"
+  ],
+  "author": "Anggit M Ginanjar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsgitz/kilatstorage-with-amazon-sdk/issues"
+  },
+  "homepage": "https://github.com/itsgitz/kilatstorage-with-amazon-sdk#readme"
+}
