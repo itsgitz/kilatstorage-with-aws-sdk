@@ -9,7 +9,7 @@ The example code of basic usage accessing the KilatStorage bucket with Node.JS u
 # Usage
 1. Install Node.js modules
 ```
-$ npm i
+$ npm install
 ```
 
 2. Copy or rename the `.env.example` file to `.env`
