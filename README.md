@@ -25,7 +25,7 @@ $ npm run bucket:upload # for upload the objects, such as (images, videos, etc)
 
 or
 
-# Directly using node
+# Directly using node command
 $ node createBucket.js # for create your bucket
 $ node upload.js # for upload the objects, such as (images, videos, etc)
 ```
