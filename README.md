@@ -12,7 +12,8 @@ The example code of basic usage accessing the KilatStorage bucket with Node.JS u
 $ npm i
 ```
 
-2. Put your KilatStorage credentials on `.env` file (see file `.env.example`)
+2. Copy or rename the `.env.example` file to `.env`
+3. Put your KilatStorage credentials on `.env` file (see file `.env.example`)
 ```
 KILAT_STORAGE_ACCESS_KEY_ID="xxxxxxx"
 KILAT_STORAGE_SECRET_ACCESS_KEY="xxxxxxx"
@@ -20,7 +21,7 @@ KILAT_STORAGE_ENDPOINT="https://s3-id-jkt-1.kilatstorage.id"
 KILAT_STORAGE_BUCKETNAME="my_bucket_name"
 ```
 
-3. Run the script
+4. Run the script
 ```
 $ npm run bucket:create # for create your bucket
 $ npm run bucket:upload # for upload the objects, such as (images, videos, etc)
