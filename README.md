@@ -12,7 +12,7 @@ The example code of basic usage accessing the KilatStorage bucket with Node.JS u
 $ npm i
 ```
 
-2. Put your KilatStorage credentials on `.env` file (see file `(.env.example)`)
+2. Put your KilatStorage credentials on `.env` file (see file `.env.example`)
 ```
 KILAT_STORAGE_ACCESS_KEY_ID="xxxxxxx"
 KILAT_STORAGE_SECRET_ACCESS_KEY="xxxxxxx"
