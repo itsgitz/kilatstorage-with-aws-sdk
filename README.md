@@ -4,7 +4,7 @@ The example code of basic usage accessing the KilatStorage bucket with Node.JS u
 # Prerequisites
 1. Operating System on Debian / RedHat Family
 2. Node.JS version v18 or later
-3. KialtStorage credentials from your https://portal.cloudkilat.com/ account
+3. KilatStorage credentials from your https://portal.cloudkilat.com/ account
 
 # Usage
 1. Install Node.js modules
