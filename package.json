@@ -1,10 +1,11 @@
 {
 	"type": "module",
-	"private":"true",
+	"private": "true",
 	"name": "kilatstorage-with-amazon-sdk",
 	"version": "1.0.0",
 	"description": "The example code of basic code accessing the KilatStorage bucket",
 	"scripts": {
+		"lint": "npx eslint . --fix",
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"bucket:create": "node createBucket.js",
 		"bucket:upload": "node upload.js"
@@ -25,6 +26,18 @@
 	"homepage": "https://github.com/itsgitz/kilatstorage-with-amazon-sdk#readme",
 	"dependencies": {
 		"@aws-sdk/client-s3": "^3.501.0",
-		"dotenv": "^16.4.1"
+		"dotenv": "^16.4.1",
+		"zod": "^3.22.4"
+	},
+	"devDependencies": {
+		"@tsconfig/recommended": "^1.0.3",
+		"@types/node": "^20.11.16",
+		"@typescript-eslint/eslint-plugin": "^6.20.0",
+		"eslint": "^8.56.0",
+		"eslint-config-standard-with-typescript": "^43.0.1",
+		"eslint-plugin-import": "^2.29.1",
+		"eslint-plugin-n": "^16.6.2",
+		"eslint-plugin-promise": "^6.1.1",
+		"typescript": "^5.3.3"
 	}
 }

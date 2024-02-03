@@ -1,6 +1,5 @@
-
-import 'dotenv/config';
-import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3';
+import 'dotenv/config'
+import { S3Client, PutObjectCommand } from '@aws-sdk/client-s3'
 
 if (!process.env.KILAT_STORAGE_ACCESS_KEY_ID) {
   throw Error('KilatStorage access key is required!')
@@ -26,7 +25,7 @@ const upload = async () => {
     region: 'us-east-1',
     credentials: {
       accessKeyId: process.env.KILAT_STORAGE_ACCESS_KEY_ID,
-      secretAccessKey: process.env.KILAT_STORAGE_SECRET_ACCESS_KEY,
+      secretAccessKey: process.env.KILAT_STORAGE_SECRET_ACCESS_KEY
     },
     endpoint: process.env.KILAT_STORAGE_ENDPOINT
   })
@@ -40,7 +39,7 @@ const upload = async () => {
   })
   console.log('Uploading object to', process.env.KILAT_STORAGE_BUCKETNAME)
   const response = await client.send(command)
-  console.log(response);
-} 
+  console.log(response)
+}
 
-upload();
+upload()
