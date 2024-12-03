@@ -1,4 +1,4 @@
-# KilatStorage with Amazon SDK v3 (Node.js)
+# KilatStorage with AWS SDK v3 (Node.js)
 The example code of basic usage accessing the KilatStorage bucket with Node.JS using AWS SDK for JavaScript v3
 
 # Prerequisites
